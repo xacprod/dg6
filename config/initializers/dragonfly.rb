@@ -15,7 +15,7 @@ Dragonfly.app.configure do
               server_root: Rails.root.join('public')
   else
     datastore :s3,
-              bucket_name: 'bodrov_sitepoint',
+              bucket_name: 'dg4test',
               access_key_id: Rails.application.secrets.aws_access_key_id,
               secret_access_key: Rails.application.secrets.aws_secret_key,
               url_scheme: 'https'
